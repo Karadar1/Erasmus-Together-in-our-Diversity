@@ -21,8 +21,7 @@ export function Navbar() {
           <NavLink to='/'>
             {/* <img src={ErasmusLogo} alt="" id='logo'/>s */}
             <span id='logo'>
-              
-              Erasmus{' '}<span id='logoPlus'> +</span>
+              Erasmus <span className='erasmusPlus'> +</span>
             </span>
           </NavLink>
           <div className='flagRow'>
@@ -49,20 +48,20 @@ export function Navbar() {
               About
             </NavLink>
           </li>
-           <li>
+          <li>
             <NavLink
-              to='about'
+              to='activities'
               style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
-              About
+              Activities
             </NavLink>
           </li>
-           <li>
+          <li>
             <NavLink
-              to='about'
+              to='mobilities'
               style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
-              About
+              Mobilities
             </NavLink>
           </li>
         </ul>
