@@ -71,10 +71,12 @@ nav a {
   display: flex;
 }
 #leftPart {
-  width: 50%;
+  width: 45%;
+  margin-right:5% ;
 }
 #rightPart {
-  width: 50%;
+  width: 45%;
+  margin-left: 5%;
 }
 
 .homeHeader {
@@ -108,14 +110,18 @@ nav a {
 }
 
 /* About */
+.informationBlock{
+  margin-right: 10vw;
+  float: left;
+}
 .aboutHeader {
-  width: 280px;
+  display: inline-block;
+  margin-top: 6vh;
   margin-left: 3vw;
   border-bottom: 5px solid #fcd116;
 }
 .aboutParagraphs {
   font-weight: lighter;
-
   margin-left: 7vw;
   width: 500px;
   line-height: 150%;
@@ -128,8 +134,9 @@ nav a {
   align-items: center;
 }
 
-#goalsSpan {
+.goalsSpan {
   font-weight: normal;
+  text-decoration: underline
 }
 
 .targetIcon {
@@ -141,10 +148,14 @@ nav a {
 }
 
 /* Carousel */
+ img.media_Pedagogic {
+  object-fit: scale-down;
+}
+
 .container-slider {
-  max-width: 700px;
-  height: 500px;
-  margin: 100px auto 0;
+  max-width: 90%;
+  height: 60vh;
+  /* margin: 100px auto 0; */
   position: relative;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -216,4 +227,9 @@ nav a {
 }
 .dot.active {
   background: rgb(32, 32, 32);
+}
+.carouselContainer {
+  display: inline-block;
+  width: 100%;
+  margin-top: 6vh;
 }

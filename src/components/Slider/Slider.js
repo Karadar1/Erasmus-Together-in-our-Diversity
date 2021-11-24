@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import BtnSlider from './BtnSlider';
 import { SliderData } from '../../utils/SliderData';
+import Link from '@mui/styled-engine-sc'
 
 export default function Slider() {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -15,6 +16,10 @@ export default function Slider() {
     return setSlideIndex((prev) => prev - 1);
   };
   return (
+    <div className="carouselContainer">
+      <h2>
+        {SliderData[slideIndex].title}
+      </h2>
     <div className='container-slider'>
       {SliderData.map((obj, index) => {
         return (
@@ -22,12 +27,14 @@ export default function Slider() {
             key={index}
             className={slideIndex === index ? 'slide active-anim' : 'slide'}
           >
-            <img src={obj.img} />
-          </div>
+            <img src={obj.img} className={`media_${obj.title}`} />
+          </div>          
         );
       })}
       <BtnSlider moveSlide={prevSlide} direction={'prev'} />
       <BtnSlider moveSlide={nextSlide} direction={'next'} />
+    </div>
+      <a href={SliderData[slideIndex].linkToWebsite}>{SliderData[slideIndex].descriprion}</a>
     </div>
   );
 }
