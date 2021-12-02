@@ -6,7 +6,7 @@ function About(props) {
     <>
       <div className='informationBlock'>
         <h1 className='aboutHeader'>What is our goal</h1>
-        <ul className='aboutParagraphs'>
+        <ul className='aboutParagraph'>
           The project aims at providing an insight into the state of the matter
           in the four schools, in order toraise awareness among our educators
           and our students , and thus develop more dynamic andcommitted learning
@@ -27,7 +27,7 @@ function About(props) {
       </div>
       <div className='informationBlock'>
         <h1 className='aboutHeader'>Who we adress</h1>
-        <ul className='aboutParagraphs'>
+        <ul className='aboutParagraph'>
           Our target groups are secondary schoolstudents aged 14-17, who will
           have the opportunity of taking active part in a multilateral
           projectthat they would otherwise have no access to, given their

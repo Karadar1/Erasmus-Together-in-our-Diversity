@@ -120,14 +120,16 @@ nav a {
   margin-left: 3vw;
   border-bottom: 5px solid #fcd116;
 }
-.aboutParagraphs {
-  font-weight: lighter;
+.aboutParagraph {
+  font-size: 20px;
+
+  font-weight: medium;
   margin-left: 7vw;
   width: 500px;
   line-height: 150%;
   list-style: none;
 }
-.aboutParagraphs li {
+.aboutParagraph li {
   margin-top: 15px;
   font-weight: bold;
   display: flex;
@@ -253,7 +255,7 @@ img.media_Pedagogic {
   align-items: center;
   height: 350px;
 
-  border: 1px solid #f26b6b;
+  border: 1px solid #000000
 }
 
 .cardImg {
@@ -277,4 +279,32 @@ img.media_Pedagogic {
 
 .cardButton {
   width: 160px;
+}
+
+/* Mobilities */
+.dayHeader{
+  margin-top: 0px;
+  display: inline-block;
+  margin-left: 6vw;
+  border-bottom: 5px solid #f26b6b;
+}
+
+/* Spain Page  */
+.img1{
+  height: 500px;
+  width: 45%;
+  margin-left: 3vw;
+}
+.img2{
+  height: 500px;
+  width: 45%;
+  margin-top: 5vh;
+  margin-left: 3vw;
+}
+.dayContainer{
+  margin-top: 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+
 }
