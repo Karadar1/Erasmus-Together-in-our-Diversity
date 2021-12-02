@@ -72,7 +72,7 @@ nav a {
 }
 #leftPart {
   width: 45%;
-  margin-right:5% ;
+  margin-right: 5%;
 }
 #rightPart {
   width: 45%;
@@ -110,7 +110,7 @@ nav a {
 }
 
 /* About */
-.informationBlock{
+.informationBlock {
   margin-right: 10vw;
   float: left;
 }
@@ -136,7 +136,7 @@ nav a {
 
 .goalsSpan {
   font-weight: normal;
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 .targetIcon {
@@ -148,7 +148,7 @@ nav a {
 }
 
 /* Carousel */
- img.media_Pedagogic {
+img.media_Pedagogic {
   object-fit: scale-down;
 }
 
@@ -232,4 +232,49 @@ nav a {
   display: inline-block;
   width: 100%;
   margin-top: 6vh;
+}
+
+/* Mobilities */
+.countries {
+  margin: 6vh 3vw;
+
+  display: flex;
+  width: 94vw;
+  justify-content: space-between;
+}
+
+/* Card Component */
+.cardBody {
+  background-color: #f1f1f1;
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 350px;
+
+  border: 1px solid #f26b6b;
+}
+
+.cardImg {
+  margin-top: 0px;
+  height: 250px;
+  width: 250px;
+  padding-bottom: 60px;
+}
+.lowerCard {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cardTitle {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.cardButton {
+  width: 160px;
 }
