@@ -9,21 +9,12 @@ function Card(props) {
     <div className='cardComponent'>
       <h3 className='cardTitle'>{props.title}</h3>
 
-      <div className='cardBody'>
+      <div className='cardBody' onClick={() => {
+              navigate(`${props.linkTo}`);
+            }}>
         <img src={props.img} alt='' className='cardImg' />
 
-        <div className='lowerCard'>
-          <span>Descption if needed</span>
-          <Button
-            variant='contained'
-            onClick={() => {
-              navigate(`${props.linkTo}`);
-            }}
-            className='cardButton'
-          >
-            Learn more
-          </Button>
-        </div>
+       
       </div>
     </div>
   );

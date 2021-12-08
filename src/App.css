@@ -246,40 +246,47 @@ img.media_Pedagogic {
 }
 
 /* Card Component */
+
+.cardComponent:hover .cardImg{
+  transform: scale(1.2);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+}
+.cardComponent:hover .cardTitle{
+  transform: scale(1.2);
+  /* padding-bottom: 20px; */
+  
+}
 .cardBody {
-  background-color: #f1f1f1;
-  border-radius: 0px 0px 15px 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 350px;
 
-  border: 1px solid #000000
 }
+
+/* .cardBody:hover {
+  margin-top: 10px;
+  transform: scale(1.2);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+} */
 
 .cardImg {
-  margin-top: 0px;
-  height: 250px;
   width: 250px;
-  padding-bottom: 60px;
+  transition: transform .5s;
 }
-.lowerCard {
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
+
 
 .cardTitle {
   text-align: center;
   font-size: 36px;
   font-weight: bolder;
+  margin-bottom: 30px;
+  transition: transform .5s;
+  
 }
 
-.cardButton {
-  width: 160px;
-}
+
 
 /* Mobilities */
 .dayHeader{
