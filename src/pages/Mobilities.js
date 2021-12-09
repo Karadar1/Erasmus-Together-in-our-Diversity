@@ -15,10 +15,10 @@ function Mobilities(props) {
     <>
       <h1 className='aboutHeader'>Discover our mobilities</h1>
       <div className='countries'>
-        <Card img={Italy} title='Italy' linkTo='italy' />
-        <Card img={Romania} title='Romania' linkTo='romania' />
         <Card img={Spania} title='Spain ' linkTo='spain' />
+        <Card img={Italy} title='Italy' linkTo='italy' />
         <Card img={Latvia} title='Letonia' linkTo='letonia' />
+        <Card img={Romania} title='Romania' linkTo='romania' />
       </div>
     </>
   );

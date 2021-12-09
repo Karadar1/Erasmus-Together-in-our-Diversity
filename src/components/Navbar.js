@@ -25,10 +25,10 @@ export function Navbar() {
             </span>
           </NavLink>
           <div className='flagRow'>
-            <img src={Italy} alt='' className='flagIcon' />
-            <img src={Romania} alt='' className='flagIcon' />
             <img src={Spania} alt='' className='flagIcon' />
+            <img src={Italy} alt='' className='flagIcon' />
             <img src={Latvia} alt='' className='flagIcon' />
+            <img src={Romania} alt='' className='flagIcon' />
           </div>
         </div>
         <ul>

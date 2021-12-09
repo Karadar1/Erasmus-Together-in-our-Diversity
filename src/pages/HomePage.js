@@ -14,7 +14,7 @@ function HomePage(props) {
         <div id='leftPart'>
           <div className='homeHeader'>
             <h1>
-              Erasmus <span className='erasmusPlus'>+</span> <br />
+              Erasmus <span className='erasmusPlus1'>+</span> <br />
               Together in our diversity{' '}
             </h1>
             <img src={logo} alt='Logo image' id='logoImg' />

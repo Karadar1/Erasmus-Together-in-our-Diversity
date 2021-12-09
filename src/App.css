@@ -50,6 +50,13 @@ nav ul {
   padding-bottom: 2px;
   margin-left: 2px;
 }
+.erasmusPlus1 {
+  color: var(--erasmus-color-1);
+  font-size: 3rem;
+  height: 30px;
+  padding-bottom: 2px;
+  margin-left: 2px;
+}
 nav a {
   color: var(--erasmus-color-4);
   text-decoration: none; /* no underline */
@@ -111,7 +118,7 @@ nav a {
 
 /* About */
 .informationBlock {
-  margin-right: 10vw;
+  margin-right: 5vw;
   float: left;
 }
 .aboutHeader {
@@ -121,12 +128,12 @@ nav a {
   border-bottom: 5px solid #fcd116;
 }
 .aboutParagraph {
-  font-size: 20px;
+  font-size: 18px;
 
   font-weight: medium;
   margin-left: 7vw;
   width: 500px;
-  line-height: 150%;
+  line-height: 160%;
   list-style: none;
 }
 .aboutParagraph li {
@@ -147,6 +154,22 @@ nav a {
   width: 30px;
   padding-bottom: 5px;
   margin-right: 10px;
+}
+
+.meetingPhotos{
+  margin: 10vh auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.meetingPhotos h3{
+  text-align: center;
+}
+#meeting1{
+  width: 40vw;
+}
+#meeting2{
+  width: 40vw;
+
 }
 
 /* Carousel */
