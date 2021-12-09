@@ -4,11 +4,7 @@ import Romania from '../assets/ro.svg';
 import Latvia from '../assets/lv.svg';
 import Spania from '../assets/es.svg';
 import Card from '../components/Card';
-import { Route, Routes } from 'react-router';
-import SpainPage from './mobilities/Spain';
-import ItalyPage from './mobilities/Italy';
-import RomaniaPage from './mobilities/Romania';
-import LetoniaPage from './mobilities/Letonia';
+
 
 function Mobilities(props) {
   return (

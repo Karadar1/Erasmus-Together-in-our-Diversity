@@ -277,9 +277,9 @@ img.media_Pedagogic {
 }
 .cardComponent:hover .cardTitle{
   transform: scale(1.2);
-  /* padding-bottom: 20px; */
   
 }
+
 .cardBody {
   display: flex;
   flex-direction: column;
@@ -288,11 +288,6 @@ img.media_Pedagogic {
 
 }
 
-/* .cardBody:hover {
-  margin-top: 10px;
-  transform: scale(1.2);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
-} */
 
 .cardImg {
   width: 250px;
