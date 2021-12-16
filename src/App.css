@@ -172,6 +172,39 @@ nav a {
 
 }
 
+/* Activities */
+.activity{
+  margin:6vh 3vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.activityHeader{
+  /* font-size: 22px; */
+  margin-bottom: 25px;
+  display: inline-block;
+  border-bottom: 5px solid var(--erasmus-color-2);
+}
+.activityParagraph{
+  text-align: left;
+  width:75%;
+  font-weight:light;
+}
+.activityImg{
+  margin-top: 5vh;
+  width: 400px; 
+}
+
+
+#divLeft{
+  margin:5vh 0 ;
+
+}
+#divRight img{
+  width: 600px;
+}
+
+
+
 /* Carousel */
 img.media_Pedagogic {
   object-fit: scale-down;
@@ -276,6 +309,14 @@ img.media_Pedagogic {
 
 }
 .cardComponent:hover .cardTitle{
+  transform: scale(1.2);
+  
+}
+.activitiesCard:hover .cardImg{
+  transform: scale(1.2);
+
+}
+.activitiesCard:hover .cardTitle{
   transform: scale(1.2);
   
 }

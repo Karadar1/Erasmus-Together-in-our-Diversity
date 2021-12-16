@@ -130,11 +130,11 @@ function About(props) {
       <div className="meetingPhotos">
         <div>
           <h3> Teacher's meeting , in Gijon Spain October 2019</h3>
-          <img src={teachersMeeting1} id='meeting1'/>
+          <img src={teachersMeeting2} id='meeting1'/>
         </div>
         <div>
           <h3> Teacher's meeting , in Salerno Italy October 2021</h3>
-          <img src={teachersMeeting2} id='meeting2'/>
+          <img src={teachersMeeting1} id='meeting2'/>
         </div>
       </div>
     </div>

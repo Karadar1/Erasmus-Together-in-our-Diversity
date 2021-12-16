@@ -6,7 +6,7 @@ function Card(props) {
   const navigate = useNavigate();
 
   return (
-    <div className='cardComponent'>
+    <div className={props.className ? props.className : 'cardComponent'}>
       <h3 className='cardTitle'>{props.title}</h3>
 
       <div className='cardBody' onClick={() => {

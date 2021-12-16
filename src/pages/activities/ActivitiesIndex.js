@@ -11,9 +11,9 @@ function Activities(props) {
     <>
       <h1 className="aboutHeader">Discover our activities</h1>
       <div className="countries">
-        <Card img={file} title="Activities" linkTo="activitiesPage" />
-        <Card img={group} title="Online Activities" linkTo="italy" />
-        <Card img={pc} title="Our Library" linkTo="letonia" />
+        <Card img={group} title="Activities" linkTo="activitiesPage" className='activitiesCard' />
+        <Card img={pc} title="Online Activities" linkTo="italy" className='activitiesCard'/>
+        <Card img={file} title="Our Library" linkTo="letonia" className='activitiesCard'/>
       </div>
     </>
   );

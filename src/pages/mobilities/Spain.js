@@ -12,7 +12,6 @@ import img11 from "../../assets/mobilitiesPhotos/spainPhotos/img11.jpg";
 import img4 from "../../assets/mobilitiesPhotos/spainPhotos/img4.jpg";
 import img5 from "../../assets/mobilitiesPhotos/spainPhotos/img5.jpg";
 import img6 from "../../assets/mobilitiesPhotos/spainPhotos/img6.JPG";
-import img7 from "../../assets/mobilitiesPhotos/spainPhotos/img7.JPG";
 
 // Day 3
 import img12 from "../../assets/mobilitiesPhotos/spainPhotos/img12.JPG";
