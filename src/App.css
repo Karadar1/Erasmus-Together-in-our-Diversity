@@ -203,7 +203,10 @@ nav a {
   width: 600px;
 }
 
-
+#logoHeader{
+  display:inline-block;
+  margin-bottom:3px solid #033e8c;
+}
 
 /* Carousel */
 img.media_Pedagogic {
@@ -373,4 +376,15 @@ img.media_Pedagogic {
   display: flex;
   flex-wrap: wrap;
 
+}
+
+/* Italy Page */
+.days{
+  display: flex;
+  flex-wrap: wrap;
+}
+.oneDay{
+  max-width: 45%;
+  margin: 20px 2.5%;
+  display: inline-block;
 }

@@ -2,15 +2,15 @@ import React from "react";
 import marshmellow from "../../assets/activitiesPhotos/marshmellow.jpg";
 import img11 from "../../assets/mobilitiesPhotos/spainPhotos/img11.jpg";
 import logoContest from "../../assets/activitiesPhotos/logoContest.jpg";
-import Romania1 from '../../assets/Romania1.png'
+import Romania1 from "../../assets/Romania1.png";
 
 export default function ActivitiesPage() {
   return (
     <>
-    {/* Marshmellow Contest */}
-      <div className="activity">
-        <div style={{width:'700px'}}>
-          <h3 className="activityHeader">D. MARSHMALLOW CHALLENGE</h3>
+      {/* Marshmellow Contest */}
+       <div className="activity">
+        <div style={{ width: "700px" }}>
+          <h3 className="activityHeader">DR. MARSHMALLOW CHALLENGE</h3>
           <div className="activityParagraph">
             On Monday afternoon we all met at the library for several group
             activities. We started with a Marshmallow challenge. In this
@@ -26,22 +26,20 @@ export default function ActivitiesPage() {
         </div>
         <img src={marshmellow} className="activityImg" />
       </div>
-      <hr/>
+      <hr />
       {/* Logo Contest */}
       <>
-         <div className="activity">
+        <div className="activity">
+          <div style={{display:'flex',flexDirection:'column'}}>
+            <h3 id="logoHeader">LOGO CONTEST</h3>
+            <img src={logoContest} />
+          </div>
 
-      <div>
-      <h3 className="activityHeader">D. MARSHMALLOW CHALLENGE</h3>
-
-        <img src={logoContest}/>
-      </div>
-    
-         <div id="divLeft">
-            <h1 style={{textAlign:'center'}}>Winner Logo</h1>
+          <div id="divLeft">
+            <h1 style={{ textAlign: "center" }}>Winner Logo</h1>
             <img src={Romania1} />
           </div>
-         </div>
+        </div>
       </>
     </>
   );
