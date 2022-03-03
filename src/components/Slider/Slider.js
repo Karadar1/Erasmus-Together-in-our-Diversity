@@ -17,7 +17,7 @@ export default function Slider() {
   };
   return (
     <div className="carouselContainer">
-      <h2>
+      <h2 id='carouselTitle'>
         {SliderData[slideIndex].title}
       </h2>
     <div className='container-slider'>

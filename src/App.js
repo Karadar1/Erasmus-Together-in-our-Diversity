@@ -19,6 +19,7 @@ import ActivitiesPage from './pages/activities/ActivitiesPage'
 
 // components
 import { Navbar } from './components/Navbar';
+import Library from './pages/activities/Library';
 
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
           <Route index element={<Activities />} />
           <Route path='activitiesPage' element={<ActivitiesPage/>}/>
           <Route path='onlineActivities' element={<Spain/>}/>
-          <Route path='library' element={<Spain/>}/>
+          <Route path='library' element={<Library/>}/>
         </Route>
         <Route path='mobilities' >
           <Route index element={<Mobilities />}/>

@@ -156,56 +156,53 @@ nav a {
   margin-right: 10px;
 }
 
-.meetingPhotos{
+.meetingPhotos {
   margin: 10vh auto;
   display: flex;
   justify-content: space-evenly;
 }
-.meetingPhotos h3{
+.meetingPhotos h3 {
   text-align: center;
 }
-#meeting1{
+#meeting1 {
   width: 40vw;
 }
-#meeting2{
+#meeting2 {
   width: 40vw;
-
 }
 
 /* Activities */
-.activity{
-  margin:6vh 3vw;
+.activity {
+  margin: 6vh 3vw;
   display: flex;
   justify-content: space-evenly;
 }
-.activityHeader{
+.activityHeader {
   /* font-size: 22px; */
   margin-bottom: 25px;
   display: inline-block;
   border-bottom: 5px solid var(--erasmus-color-2);
 }
-.activityParagraph{
+.activityParagraph {
   text-align: left;
-  width:75%;
-  font-weight:light;
+  width: 75%;
+  font-weight: light;
 }
-.activityImg{
+.activityImg {
   margin-top: 5vh;
-  width: 400px; 
+  width: 400px;
 }
 
-
-#divLeft{
-  margin:5vh 0 ;
-
+#divLeft {
+  margin: 5vh 0;
 }
-#divRight img{
+#divRight img {
   width: 600px;
 }
 
-#logoHeader{
-  display:inline-block;
-  margin-bottom:3px solid #033e8c;
+#logoHeader {
+  display: inline-block;
+  margin-bottom: 3px solid #033e8c;
 }
 
 /* Carousel */
@@ -294,6 +291,10 @@ img.media_Pedagogic {
   width: 100%;
   margin-top: 6vh;
 }
+#carouselTitle {
+  display: inline-block;
+  margin-right: 10px;
+}
 
 /* Mobilities */
 .countries {
@@ -306,22 +307,18 @@ img.media_Pedagogic {
 
 /* Card Component */
 
-.cardComponent:hover .cardImg{
+.cardComponent:hover .cardImg {
   transform: scale(1.2);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
-
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
-.cardComponent:hover .cardTitle{
+.cardComponent:hover .cardTitle {
   transform: scale(1.2);
-  
 }
-.activitiesCard:hover .cardImg{
+.activitiesCard:hover .cardImg {
   transform: scale(1.2);
-
 }
-.activitiesCard:hover .cardTitle{
+.activitiesCard:hover .cardTitle {
   transform: scale(1.2);
-  
 }
 
 .cardBody {
@@ -329,29 +326,23 @@ img.media_Pedagogic {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
 }
-
 
 .cardImg {
   width: 250px;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
-
 
 .cardTitle {
   text-align: center;
   font-size: 36px;
   font-weight: bolder;
   margin-bottom: 30px;
-  transition: transform .5s;
-  
+  transition: transform 0.5s;
 }
 
-
-
 /* Mobilities */
-.dayHeader{
+.dayHeader {
   margin-top: 0px;
   display: inline-block;
   margin-left: 6vw;
@@ -359,32 +350,78 @@ img.media_Pedagogic {
 }
 
 /* Spain Page  */
-.img1{
+.img1 {
   height: 500px;
   width: 45%;
   margin-left: 3vw;
 }
-.img2{
+.img2 {
   height: 500px;
   width: 45%;
   margin-top: 5vh;
   margin-left: 3vw;
 }
-.dayContainer{
+.dayContainer {
   margin-top: 50px;
 
   display: flex;
   flex-wrap: wrap;
-
 }
 
 /* Italy Page */
-.days{
+
+.mainTitle {
+  margin-top: 0px;
+  display: inline-block;
+  border-bottom: 5px solid #f26b6b;
+}
+.mainBody {
+  margin: 10px 0;
+}
+
+.days {
   display: flex;
   flex-wrap: wrap;
 }
-.oneDay{
-  max-width: 45%;
-  margin: 20px 2.5%;
-  display: inline-block;
+.oneDay {
+  margin: 150px 0;
+}
+
+.daysWrapper {
+  height: 100%;
+  max-width: 1020px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.columnPhotos {
+  line-height: 0;
+
+  -webkit-column-count: 2;
+  -webkit-column-gap: 5px;
+  -moz-column-count: 2;
+  -moz-column-gap: 5px;
+  column-count: 2;
+  column-gap: 5px;
+}
+
+.columnPhotos img {
+  width: 100% !important;
+  height: auto !important;
+  margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+  .columnPhotos {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+}
+
+.praa {
+  margin: 200px 50%;
 }
