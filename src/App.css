@@ -125,7 +125,7 @@ nav a {
   display: inline-block;
   margin-top: 6vh;
   margin-left: 3vw;
-  border-bottom: 5px solid #fcd116;
+  border-bottom: 5px solid #aa151b;
 }
 .aboutParagraph {
   font-size: 18px;
@@ -204,6 +204,31 @@ nav a {
   display: inline-block;
   margin-bottom: 3px solid #033e8c;
 }
+
+/* Online Activities */
+.aboutHeaderOnlineActivities {
+  display: inline-block;
+  margin-top: 6vh;
+  margin-left: 3vw;
+  border-bottom: 5px solid var(--erasmus-color-2);
+}
+.mainTitleOnlineActivities {
+  margin-top: 0px;
+  display: inline-block;
+  border-bottom: 5px solid #002B7F;
+}
+
+/* Library */
+
+.linksList {
+  list-style: none;
+}
+
+.mainBodyLibrary{
+  margin-top: 6vh;
+  margin-left: 3vw;
+}
+
 
 /* Carousel */
 img.media_Pedagogic {
@@ -367,13 +392,38 @@ img.media_Pedagogic {
   display: flex;
   flex-wrap: wrap;
 }
+.mainTitleSpain {
+  margin-top: 0px;
+  display: inline-block;
+  border-bottom: 5px solid #f1bf00
+  ;
+}
+
+/* Romania page */
+.mainTitleRomania {
+  margin-top: 0px;
+  display: inline-block;
+  border-bottom: 5px solid #002B7F;
+}
+.aboutHeaderRomania {
+  display: inline-block;
+  margin-top: 6vh;
+  margin-left: 3vw;
+  border-bottom: 5px solid #FCD116;
+}
 
 /* Italy Page */
 
-.mainTitle {
+.mainTitleItaly {
   margin-top: 0px;
   display: inline-block;
-  border-bottom: 5px solid #f26b6b;
+  border-bottom: 5px solid #008C45;
+}
+.aboutHeaderItaly {
+  display: inline-block;
+  margin-top: 6vh;
+  margin-left: 3vw;
+  border-bottom: 5px solid #CD212A;
 }
 .mainBody {
   margin: 10px 0;

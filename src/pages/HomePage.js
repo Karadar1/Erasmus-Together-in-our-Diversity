@@ -21,10 +21,10 @@ function HomePage(props) {
           </div>
           <div className='homeParagraph'>
             "Together in our diversity" is a two-year project that has been
-            conceived to foster collaborationand innovation among four partner
+            conceived to foster collaboration and innovation among four partner
             schools in different parts of Europe: Spain, Italy, Latvia and
             Romania. By carrying this project out transnationally, we wish to
-            tackle the issue of socialinclusion from an European, broader,
+            tackle the issue of social inclusion from an European, broader,
             richer perspective which, no doubt, will make the projectoutcomes
             more widely valid and applicable to any other countries of our
             environment.

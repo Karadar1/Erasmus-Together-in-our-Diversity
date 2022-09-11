@@ -16,10 +16,11 @@ import Romania from './pages/mobilities/Romania';
 
 //Activities pages
 import ActivitiesPage from './pages/activities/ActivitiesPage'
+import Library from './pages/activities/Library';
+import OnlineActivities from './pages/activities/OnlineActivities';
 
 // components
 import { Navbar } from './components/Navbar';
-import Library from './pages/activities/Library';
 
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
         <Route path='activities'>
           <Route index element={<Activities />} />
           <Route path='activitiesPage' element={<ActivitiesPage/>}/>
-          <Route path='onlineActivities' element={<Spain/>}/>
+          <Route path='onlineActivities' element={<OnlineActivities/>}/>
           <Route path='library' element={<Library/>}/>
         </Route>
         <Route path='mobilities' >

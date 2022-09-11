@@ -28,7 +28,7 @@ const Spain = (props) => {
 
       <div className="dayContainer">
         <div style={{ width: "45%", marginLeft: "3vw" }}>
-          <h2 className="dayHeader">First Day</h2>
+          <h2 className="mainTitleSpain">First Day</h2>
           <ul className="aboutParagraph">
             Meeting at the Town Hall with the Teachers’ Council Representative
             City tour Gijon-Laboral University Tour of the school provided by
@@ -56,7 +56,7 @@ const Spain = (props) => {
       <div className="dayContainer">
         <img src={img6} className="img1" />
         <div style={{ width: "45%", marginLeft: "3vw" }}>
-          <h2 className="dayHeader">Second Day</h2>
+          <h2 className="mainTitleSpain">Second Day</h2>
           <ul
             className="aboutParagraph"
             style={{ width: "540px", fontSize: "18px" }}
@@ -96,7 +96,7 @@ const Spain = (props) => {
       {/* Day 3 */}
       <div className="dayContainer">
         <div style={{ width: "45%", marginLeft: "3vw" }}>
-          <h2 className="dayHeader">Third Day</h2>
+          <h2 className="mainTitleSpain">Third Day</h2>
           <ul
             className="aboutParagraph"
             style={{ width: "540px", fontSize: "18px" }}
@@ -121,7 +121,7 @@ const Spain = (props) => {
       <hr />
       <div className="dayContainer">
         <div style={{ width: "45%", marginLeft: "3vw" }}>
-          <h2 className="dayHeader">Forth Day</h2>
+          <h2 className="mainTitleSpain">Forth Day</h2>
           <ul
             className="aboutParagraph"
             style={{ width: "540px", fontSize: "18px" }}
@@ -134,7 +134,7 @@ const Spain = (props) => {
           </ul>
         </div>
         <div style={{ width: "45%", marginLeft: "3vw" }}>
-          <h2 className="dayHeader">Fift Day</h2>
+          <h2 className="mainTitleSpain">Fifth Day</h2>
           <ul
             className="aboutParagraph"
             style={{ width: "540px", fontSize: "18px" }}

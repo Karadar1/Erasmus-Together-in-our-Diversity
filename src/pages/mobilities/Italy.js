@@ -34,11 +34,11 @@ import img26 from "../../assets/mobilitiesPhotos/italyPhotos/Italy26.jpg";
 function Italy(props) {
   return (
     <div className="daysWrapper">
-      <h1 className="aboutHeader">Italy(Salerno):LICEO G. DA PROCIDA</h1>
+      <h1 className="aboutHeaderItaly">Italy(Salerno):LICEO G. DA PROCIDA</h1>
       <div className="days">
         {/* Day 0 */}
         <div className="oneDay">
-          <h3 className="mainTitle">DAY 0: THE TRIP</h3>
+          <h3 className="mainTitleItaly">DAY 0: THE TRIP</h3>
           <div className="mainBody">
             We travelled all day. We took a flight from Asturias to Barcelona,
             then from Barcelona to Naples. In Naples a bus was wating for us to
@@ -50,7 +50,7 @@ function Italy(props) {
         </div>
         {/* Day 1 */}
         <div className="oneDay">
-          <h3 className="mainTitle">DAY 1: POMPEI </h3>
+          <h3 className="mainTitleItaly">DAY 1: POMPEI </h3>
           <div className="mainBody">
             On the first day we went to Pompei. Pompei is a city located in the
             south of Italy, that in the 79 d.C. was covered by ashes and a toxic
@@ -75,7 +75,7 @@ function Italy(props) {
         </div>
         {/* Day 2 */}
         <div className="oneDay">
-          <h3 className="mainTitle">
+          <h3 className="mainTitleItaly">
             DAY 2: SALERNO: TOWN HALL, TEATRO VERDI, CATHEDRAL AND THE SCHOOL
             "LICEO G. DA PROCIDA"
           </h3>
@@ -103,7 +103,7 @@ function Italy(props) {
         </div>
         {/* Day 3 */}
         <div className="oneDay">
-          <h3 className="mainTitle">DAY 3: TRIP TO PAESTUM</h3>
+          <h3 className="mainTitleItaly">DAY 3: TRIP TO PAESTUM</h3>
           <div className="mainBody">
             On Tuesday morning, we visited a buffalo farm which is also a
             mozarella factory. We got to know how mozzarella is made and we
@@ -126,7 +126,7 @@ function Italy(props) {
         </div>
         {/* Day 4 */}
         <div className="oneDay">
-          <h3 className="mainTitle">DAY 4: WORKING AT SCHOOL</h3>
+          <h3 className="mainTitleItaly">DAY 4: WORKING AT SCHOOL</h3>
           <div className="mainBody">
             On Wednesday morning we walked to the Italian high school, where we
             created a "thinglink" about a typical dish of our country. Everyone
@@ -154,7 +154,7 @@ function Italy(props) {
         </div>
         {/* Day 5 */}
         <div className="oneDay">
-          <h3 className="mainTitle">DAY 5: WORKING AT SCHOOL</h3>
+          <h3 className="mainTitleItaly">DAY 5: WORKING AT SCHOOL</h3>
           <div className="mainBody">
             On Thursday we divided into mixed groups of Italians, Latvians,
             Romanians and Spaniards and we created a poster with Canva. Later,
@@ -178,7 +178,7 @@ function Italy(props) {
         </div>
         {/* Day 6 */}
         <div className="oneDay">
-          <h3 className="mainTitle">DAY 6: WORKING AT SCHOOL </h3>
+          <h3 className="mainTitleItaly">DAY 6: WORKING AT SCHOOL </h3>
           <div className="mainBody">
             Friday was the last day and we did some activities of assessment and
             summarising. To begin, we watched two videos about gender bias.
@@ -207,7 +207,7 @@ function Italy(props) {
           </div>
         </div>
         <div className="oneDay">
-          <h3 className="mainTitle">DAY 7: THE TRIP BACK TO GIJÓN</h3>
+          <h3 className="mainTitleItaly">DAY 7: THE TRIP BACK TO GIJÓN</h3>
           <div className="mainBody">
             On Saturday we left the "Istituto" at 7 a.m. We were sad that the
             school trip had finished and that we had to say goodbye to many new

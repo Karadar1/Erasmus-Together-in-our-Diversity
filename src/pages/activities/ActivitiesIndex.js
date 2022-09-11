@@ -17,10 +17,12 @@ function Activities(props) {
       
       break;
     case 'online_activities':
-      window.open(
-        'https://read.bookcreator.com/vioXrdTQ5PTzr153t8yT2G4CXiH2/nXYMVtcYQfybRf6kQRCLJA',
-        '_blank' 
-      );
+      // window.open(
+      //   'https://read.bookcreator.com/vioXrdTQ5PTzr153t8yT2G4CXiH2/nXYMVtcYQfybRf6kQRCLJA',
+      //   '_blank' 
+      // );
+      navigate('onlineActivities')
+
       break;
     case 'our_library':
       navigate('library')
